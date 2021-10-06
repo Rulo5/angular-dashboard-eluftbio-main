@@ -32,25 +32,27 @@
 													<form [formGroup]="loginForm" (ngSubmit)="Submit()">
 														<div class="form-group">
 															<label>Email</label>
-                                                            <input class="form-control" placeholder="Enter your email" type="text" formControlName="email">
+                               <input class="form-control" placeholder="Enter your email" type="text" formControlName="email">
 														</div>
-														<div class="form-group">
+														<div class="form-group ">
 															<label>Contraseña</label>
-                                                            <input class="form-control" placeholder="Enter your password" type="password" formControlName="password">
+                               <input class="form-control " placeholder="Enter your password" type="password" formControlName="password">
 														</div>
-                                                        <button class="btn btn-main-primary btn-block" [disabled]="!loginForm.valid">Sign In</button>
+                            <br>
+                              <button class=" btn btn-main-primary btn-block" [disabled]="!loginForm.valid">Registrarse</button>
 														<div class="row row-xs">
-															<div class="col-sm-6">
+														<!--	<div class="col-sm-6">
 																<button class="btn btn-block"><i class="fab fa-facebook-f"></i> Signup with Facebook</button>
-															</div>
-															<div class="col-sm-6 mg-t-10 mg-sm-t-0">
+															</div> -->
+
+														<!--	<div class="col-sm-6 mg-t-10 mg-sm-t-0">
 																<button class="btn btn-info btn-block"><i class="fab fa-twitter"></i> Signup with Twitter</button>
-															</div>
+															</div> -->
 														</div>
 													</form>
 													<div class="main-signin-footer mt-5">
-														<p><a routerLink="/custompages/forgot-password" >Forgot password?</a></p>
-														<p>Don't have an account? <a routerLink="/custompages/sign-in" routerLinkActive="router-link-active" >Create an Account</a></p>
+														<p><a routerLink="/custompages/forgot-password" >Recuperar contraseña</a></p>
+														<p>¿No tienes una cuenta? <a routerLink="/custompages/sign-in" routerLinkActive="router-link-active" >Crea una cuenta</a></p>
 													</div>
 												</div>
 											</div>
