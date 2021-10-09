@@ -4,6 +4,10 @@ import { Routes } from '@angular/router';
 
 export const Full_Content_Routes: Routes = [
     {
+        path: 'users',
+        loadChildren: () => import('../../eluftbio/users/users.module').then(m => m.UsersModule)
+    },
+    {
         path: 'dashboard',
         loadChildren: () => import('../../components/dashboard/dashboard.module').then(m => m.DashboardModule)
     },
@@ -29,7 +33,7 @@ export const Full_Content_Routes: Routes = [
     },
     {
         path: 'advanced',
-        loadChildren: () => import('../../components/advanced-ui/advanced-ui.module').then(m => m.AdvancedUiModule)   
+        loadChildren: () => import('../../components/advanced-ui/advanced-ui.module').then(m => m.AdvancedUiModule)
     },
     {
         path: 'mail',

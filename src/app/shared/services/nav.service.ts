@@ -66,6 +66,16 @@ export class NavService implements OnDestroy {
 
   MENUITEMS: Menu[] = [
     {
+      headTitle: 'Administración de usuarios'
+    },
+    {
+      title: 'Usuarios', icon: 'assessment', type: 'sub', active: false,
+      children: [
+        { path: '/users', title: 'Listar Usuarios', type: 'link', active: false },
+        { path: '/users/create', title: 'Crear Usuario', type: 'link', active: false },
+      ]
+    },
+    {
       headTitle: 'Main'
     },
     {
