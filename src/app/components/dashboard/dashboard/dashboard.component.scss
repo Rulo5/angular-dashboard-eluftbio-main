@@ -6,7 +6,9 @@
     left:  initial !important;
     right:0;
 }
-
+.extra-padding{
+  padding-top: 14px;
+}
 ::ng-deep{
     rect{
         stroke: none !important;
