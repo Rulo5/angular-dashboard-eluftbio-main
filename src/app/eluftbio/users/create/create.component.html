@@ -1,46 +1,117 @@
-
+<div class="breadcrumb-header justify-content-between">
+  <div class="my-auto">
+      <div class="d-flex">
+          <h4 class="content-title mb-0 my-auto">CREACION DE USUARIO</h4><span class="text-muted mt-1 tx-13 ml-2 mb-0">/ Usuarios</span>
+      </div>
+  </div>
+</div>
 	<div class="col-lg-12col-xl-12 col-md-12 col-sm-12">
-    <br>
+
 		<div class="card  box-shadow-0 ">
 			<div class="card-header">
 				<h4 class="card-title mb-1">INGRESO DE USUARIO</h4>
 				<p class="mb-2">El ingreso es unico por usuario.</p>
 			</div>
-			<div class="card-body pt-0">
-				<form>
-					<div class="">
-            <div class="form-group">
-							<label for="exampleInputEmail1">Nombres</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su nombres">
-						</div>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Apellido paterno</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su apellido paterno">
-						</div>
-            <div class="form-group">
-							<label for="exampleInputEmail1">Apellido materno</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese su apellido materno">
-						</div>
-						<div class="form-group">
-							<label for="exampleInputPassword1">Establecimeinto</label>
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese Establecimeinto">
-						</div>
-            <div class="form-group">
-							<label for="exampleInputPassword1"> ccccRol</label>
-							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese rol de usuario">
-						</div>
-						<div class="checkbox">
-							<div class="custom-checkbox custom-control">
-								<input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
-									id="checkbox-1">
-								<label for="checkbox-1" class="custom-control-label mt-1">Check me Out</label>
-							</div>
-						</div>
-					</div>
-					<button type="submit" class="btn btn-primary mt-3 mb-0">Submit</button>
-				</form>
+      <div class="row">
+        <div class="col-md-12 col-xl-12 col-xs-12 col-sm-12">
+          <!--div-->
+          <div class="card">
+            <div class="card-body">
+              <div class="main-content-label mg-b-5">
+                <div class="row row-sm">
+                  <div class="col-lg-6 col-xl-6 col-md-12 col-sm-12">
+                    <div class="card  box-shadow-0">
+                      <div class="card-header">
+                        <h3 class="card-title mb-1">DATOS PERSONALES</h3>
+                      </div>
+                      <br>
+                      <div class="card-body pt-0">
+                        <form class="form-horizontal">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">RUT </label>
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="12.123.123-4">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Nombre completo</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Ingrese ambos nombres">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Apellido paterno</label>
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Ingrese su apellido paterno">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Apellido materno </label>
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Ingrese su apellido materno">
+                          </div>
+
+                          <div class="form-group mb-0 justify-content-end">
+                            <div class="checkbox">
+                              <div class="custom-checkbox custom-control">
+                                <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                                  id="checkbox-2">
+                              </div>
+                            </div>
+                          </div>
+
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-xl-6 col-md-12 col-sm-12">
+                    <div class="card  box-shadow-0 ">
+                      <div class="card-header">
+                        <h4 class="card-title mb-1">Datos establecimiento</h4>
+                       <br>
+                      </div>
+                      <div class="card-body pt-0">
+                        <form>
+                          <div class="">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Nombre del establecimiento</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese nombre del establecimiento">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Dirección particular</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1"placeholder="Ingrese direccion ">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Cantidad de Dispositivos</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1"placeholder="Ingrese cantidad de equipos">
+                            </div>
+                          </div>
+                     </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-xl-12 col-xs-12 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="main-content-label mg-b-5">
+                        ROL &amp;
+                      </div>
+                      <p class="mg-b-20">SELECCIONAR PRIVILEGIO DE ACCESO.</p>
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <label class="ckbox"><input type="checkbox"><span>USUARIO</span></label>
+                        </div>
+                        <div class="col-lg-3 mg-t-20 mg-lg-t-0">
+                          <label class="ckbox"><input checked type="checkbox"><span>ADMINISTRADOR</span></label>
+                        </div>
+                        <div class="col-lg-3 mg-t-20 mg-lg-t-0">
+                          <label class="ckbox"><input type="checkbox"><span>DESARROLLADOR</span></label>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 			</div>
 		</div>
-	</div>
+<div class="form-group mb-0 mt-3 justify-content-end text-center">
+      <div>
+        <button type="submit" class="btn btn-primary mr-1 mb-1">Guardar</button>
 
+      </div>
+    </div>
 
