@@ -25,7 +25,7 @@ export class FormElementsComponent implements OnInit {
   status2: boolean = false;
   status3: boolean = false;
 
-  public color: string = '#2889e9'; 
+  public color: string = '#2889e9';
   public color1: string = '#e920e9';
 
   public disable: boolean = true;
@@ -79,7 +79,7 @@ export class FormElementsComponent implements OnInit {
     }
   }
 
-  
+
   clickEvent() { this.status = !this.status;}
   clickEvent1() { this.status1 = !this.status1;}
   clickEvent2() { this.status2 = !this.status2;}

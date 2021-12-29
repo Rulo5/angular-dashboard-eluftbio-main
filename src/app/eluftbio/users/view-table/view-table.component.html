@@ -1,16 +1,20 @@
+
+<div class="breadcrumb-header justify-content-between">
+  <div class="left-content">
+      <div>
+          <h2 class="main-content-title tx-24 mg-b-1 mg-b-lg-1">Hola bienvenido</h2>
+          <p class="mg-b-0">Panel de monitoreo.</p>
+      </div>
+  </div>
+</div>
+
 <div class="breadcrumb-header justify-content-between">
   <div class="my-auto">
       <div class="d-flex">
-          <h4 class="content-title mb-0 my-auto">TABLA DE USUARIOS</h4><span class="text-muted mt-1 tx-13 ml-2 mb-0">/ Usuarios</span>
+          <h4 class="content-title mb-0 my-auto">LISTADO DE CONJUNTOS CREADOS</h4>
       </div>
   </div>
   <div class="d-flex my-xl-auto right-content mr-2">
-      <div class="pr-1 mb-3 mb-xl-0">
-          <button type="button" class="btn btn-info btn-icon mr-2"><i class="mdi mdi-filter-variant"></i></button>
-      </div>
-      <div class="pr-1 mb-3 mb-xl-0">
-          <button type="button" class="btn btn-danger btn-icon mr-2"><i class="mdi mdi-star"></i></button>
-      </div>
       <div class="pr-1 mb-3 mb-xl-0">
           <button type="button" class="btn btn-warning  btn-icon mr-2"><i class="mdi mdi-refresh"></i></button>
       </div>
@@ -25,11 +29,10 @@
       <div class="card">
           <div class="card-header pb-0">
               <div class="d-flex justify-content-between">
-                  <h4 class="card-title mg-b-0">Tabla de usuarios</h4>
-                  <!-- <i class="mdi mdi-dots-horizontal text-gray"></i> -->
+                  <h4 class="card-title mg-b-0">CONJUNTOS</h4>
+
                   <div ngbDropdown class="btn-group">
                       <a type="button" ngbDropdownToggle data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <i class="mdi mdi-dots-horizontal text-gray"></i>
                       </a>
 
                   </div>
@@ -40,28 +43,17 @@
                   <table class="table card-table table-striped table-vcenter text-nowrap mb-0">
                       <thead>
                           <tr>
-                              <th class="wd-lg-8p"><span>Rut</span></th>
-                              <th class="wd-lg-8p"><span>Primer Nombre</span></th>
-                              <th class="wd-lg-20p"><span>Apellido Paterno</span></th>
-                              <th class="wd-lg-20p"><span>Apellido Materno</span></th>
-                              <th class="wd-lg-20p"><span>Email</span></th>
-                              <th class="wd-lg-20p">Rol</th>
-                              <th class="wd-lg-20p">ID</th>
-
+                              <th class="wd-lg-8p"><span>ID</span></th>
+                              <th class="wd-lg-8p"><span>Nombre de grupo</span></th>
+                              <th class="wd-lg-20p"><span>Dipositivos agrupados</span></th>
+                              <th class="wd-lg-20p"><span>Opciones</span></th>
                           </tr>
                     </thead>
                       <tbody>
-                         <!-- <img alt="avatar" class="rounded-circle avatar-md mr-2" src="../../assets/img/faces/1.jpg">-->
                           <tr>
-                              <td>18.123.345-6</td>
-                              <td>Andrea </td>
-                              <td>Garrido</td>
-                              <td>Osorio</td>
-                              <td> <a href="javascript:;">andrea@gmail.com</a></td>
-                              <td class="text-center">
-                                  <span class="label text-muted d-flex"><div class="dot-label bg-gray-300 mr-1"></div>Usuario</span>
-                              </td>
-                              <td>23456</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td>-</td>
                               <td>
                                   <a href="javascript:;" class="btn btn-sm btn-primary">
                                       <i class="las la-search"></i>
@@ -77,60 +69,6 @@
                           <tr>
 
                        </tbody>
-                       <tbody>
-                        <!-- <img alt="avatar" class="rounded-circle avatar-md mr-2" src="../../assets/img/faces/1.jpg">-->
-                         <tr>
-                             <td>18.123.345-6</td>
-                             <td>Maria </td>
-                             <td>Garrido</td>
-                             <td>Osorio</td>
-                             <td> <a href="javascript:;">andrea@gmail.com</a></td>
-                             <td class="text-center">
-                                 <span class="label text-muted d-flex"><div class="dot-label bg-gray-300 mr-1"></div>Usuario</span>
-                             </td>
-                             <td>23456</td>
-                             <td>
-                                 <a href="javascript:;" class="btn btn-sm btn-primary">
-                                     <i class="las la-search"></i>
-                                 </a>
-                                 <a href="javascript:;" class="btn btn-sm btn-info">
-                                     <i class="las la-pen"></i>
-                                 </a>
-                                 <a href="javascript:;" class="btn btn-sm btn-danger">
-                                     <i class="las la-trash"></i>
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-
-                      </tbody>
-                      <tbody>
-                        <!-- <img alt="avatar" class="rounded-circle avatar-md mr-2" src="../../assets/img/faces/1.jpg">-->
-                         <tr>
-                             <td>18.123.345-6</td>
-                             <td>Ana </td>
-                             <td>Perez</td>
-                             <td>Osorio</td>
-                             <td> <a href="javascript:;">andrea@gmail.com</a></td>
-                             <td class="text-center">
-                                 <span class="label text-muted d-flex"><div class="dot-label bg-gray-300 mr-1"></div>Usuario</span>
-                             </td>
-                             <td>23456</td>
-                             <td>
-                                 <a href="javascript:;" class="btn btn-sm btn-primary">
-                                     <i class="las la-search"></i>
-                                 </a>
-                                 <a href="javascript:;" class="btn btn-sm btn-info">
-                                     <i class="las la-pen"></i>
-                                 </a>
-                                 <a href="javascript:;" class="btn btn-sm btn-danger">
-                                     <i class="las la-trash"></i>
-                                 </a>
-                             </td>
-                         </tr>
-                         <tr>
-
-                      </tbody>
                   </table>
               </div>
               <ul class="pagination mt-4 mb-0 float-right">
